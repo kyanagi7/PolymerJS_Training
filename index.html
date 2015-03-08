@@ -1,16 +1,21 @@
 <!DOCTYPE html>
  <html>
   <head>
-    <script src="bower_components/platform/platform.js"></script>
+    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
     <link rel="import" href="bower_components/core-ajax/core-ajax.html">
     <link rel="import" href="bower_components/core-input/core-input.html">
+    <link rel="import" href="bower_components/paper-input/paper-input.html">
   </head>
   <body>
   	<h1>Core & Paper Elements</h1>
   	<ul>
   		<li>
-  			<strong>Basic Text input : Core</strong>
-  			<core-input id="single" placeholder="Type something..."></core-input>
+  			<strong>Basic Text Input : Core</strong>
+    		<core-input id="single" placeholder="Type something..."></core-input>
+  		</li>
+  		<li>
+  			<strong>Basic Text Input : Paper</strong>
+  			<paper-input label="Type something" layout vertical></paper-input/>
   		</li>
   	</ul>
   </body>
